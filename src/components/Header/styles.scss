@@ -38,7 +38,14 @@
         }
 
         li{
+            display: inline-block;
             list-style-type: none;
+            margin-right: 15px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+
             a{
                 font-size: 1.8rem;
                 line-height: 1;
@@ -47,6 +54,10 @@
                 text-transform: uppercase;
             }
         }
+    }
+
+    .span{
+        cursor: pointer;
     }
 }
 
